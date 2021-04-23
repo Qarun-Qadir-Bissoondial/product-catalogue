@@ -1,0 +1,16 @@
+GET http://127.0.0.1:8000/api/products HTTP/1.1
+
+###
+
+POST http://127.0.0.1:8000/api/products HTTP/1.1
+
+Content-Type: application/json
+
+{
+    "name": "Dress Shirt",
+    "category": "shirts",
+    "description": "Black shirt",
+    "rating": 4.2,
+    "price": 100,
+    "inventory": 200,
+}
